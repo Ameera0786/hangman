@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Vite App</title>
+  
+</head>
+
+<body>
+  <div id="main">
+    <!-- TITLE -->
+    <h1>HANGMAN</h1>
+
+
+
+
+    <!-- Local storage tags -->
+    <h2 id="highscore"></h2>
+    <h2 id="score"></h2>
+    <h2 id="current_score"></h2>
+
+    <div id="top">
+      <!-- Input box. automatically starts cursor in it -->
+      <input id="letter" maxlength="1" autofocus>
+
+
+      <!-- Pretty much the game layout + the images, set up -->
+    </div>
+    <p id="output"></p>
+    <p id="wrong"></p>
+    <img src="Assets/images/hangman0.png" alt="" id="img">
+    <p id="word"></p>
+
+    <p id="localstorage"></p>
+    <!-- Button-Play again -->
+    <button id="button">PLAY AGAIN<br>
+      Press space or click
+    </button>
+    <button id="reset">Reset Highscores</button>
+  </div>
+  <div id="app"></div>
+ 
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
